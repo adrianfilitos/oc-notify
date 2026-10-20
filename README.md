@@ -1,5 +1,8 @@
 # oc-notify
 
+[![npm version](https://img.shields.io/npm/v/oc-notify.svg)](https://www.npmjs.com/package/oc-notify)
+[![license](https://img.shields.io/npm/l/oc-notify.svg)](https://github.com/adrianfilitos/oc-notify/blob/main/LICENSE)
+
 Push notifications for **OpenCode** permission requests, with **Allow / Always / Deny** buttons on your phone.
 
 OpenCode stops and waits when an agent needs permission to run a command or touch a file. If you are not at the keyboard, nothing moves. `oc-notify` watches the local OpenCode server and sends you a push through [ntfy](https://ntfy.sh). You answer from the notification and the agent keeps going.
