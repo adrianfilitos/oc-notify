@@ -1,0 +1,40 @@
+{
+  "name": "oc-notify",
+  "version": "0.1.0",
+  "description": "Push notifications for OpenCode permission requests, with approve and deny actions from your phone via ntfy.",
+  "type": "module",
+  "bin": {
+    "oc-notify": "bin/oc-notify.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "opencode",
+    "ntfy",
+    "notifications",
+    "cli",
+    "ai-agents",
+    "permissions"
+  ],
+  "license": "MIT",
+  "author": "Nixer (https://github.com/adrianfilitos)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianfilitos/oc-notify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrianfilitos/oc-notify/issues"
+  },
+  "homepage": "https://github.com/adrianfilitos/oc-notify#readme",
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run"
+  }
+}
